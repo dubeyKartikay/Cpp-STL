@@ -16,4 +16,15 @@ int main(){
     //OR
     vector<int> vec5(vec2); 
 
+    //define 10 X 20
+    vector < vector <int> > vecct (10 , vector<int>(20,0));
+
+    for (auto vctr : vecct){
+        for (auto it : vctr){
+            cout << it << " ";
+        }
+
+        cout << endl;
+    }
+
 }
