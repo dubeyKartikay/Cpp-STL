@@ -16,7 +16,6 @@ int main(){
     {
         cout << "Yes it is empty" << endl;
     }
-
     for (auto it : mpp){
         cout << it.first << " : " << it.second << endl;
     }
